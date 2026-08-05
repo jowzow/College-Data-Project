@@ -1,0 +1,36 @@
+{
+  "taxonomy_version": "1.0",
+  "activity_categories": {
+    "athletics": ["football", "soccer", "tennis", "basketball", "baseball", "swim", "track", "cross country", "volleyball", "wrestling", "varsity", "athlete"],
+    "research": ["research", "lab", "publication", "paper", "professor", "experiment", "journal"],
+    "technology_engineering": ["coding", "programming", "software", "app", "website", "robotics", "usaco", "machine learning", "computer science", "github"],
+    "community_service": ["volunteer", "nonprofit", "community", "tutor", "mentored", "service", "fundraiser"],
+    "arts": ["music", "orchestra", "band", "choir", "theater", "dance", "painting", "film", "photography"],
+    "employment": ["job", "worked", "employee", "intern", "cashier", "restaurant", "paid"],
+    "family_responsibilities": ["caregiver", "cared for", "siblings", "family business", "translated for", "household"],
+    "student_government": ["student council", "student government", "class president", "school senate"],
+    "academic_club": ["olympiad", "debate", "model un", "math club", "science club", "quiz bowl", "mock trial"],
+    "entrepreneurship": ["startup", "business", "founded company", "revenue", "customers", "entrepreneur"],
+    "other": []
+  },
+  "activity_subtags": {
+    "team_sport": ["football", "soccer", "basketball", "baseball", "volleyball", "team"],
+    "individual_sport": ["tennis", "swim", "track", "cross country", "wrestling"],
+    "software_project": ["app", "website", "software", "github", "deployed"],
+    "competition": ["competition", "olympiad", "usaco", "tournament", "championship"],
+    "mentoring": ["mentor", "tutor", "teach", "coached"],
+    "publication_output": ["published", "publication", "paper", "journal"],
+    "real_users": ["users", "customers", "students served", "participants"],
+    "paid_work": ["paid", "job", "employee", "salary", "wage"],
+    "sustained": ["years", "four years", "three years", "2 years", "3 years", "4 years"]
+  },
+  "award_categories": {
+    "academic_competition": ["usaco", "olympiad", "aime", "usapho", "debate", "science fair", "competition"],
+    "research_publication": ["publication", "published", "journal", "research award"],
+    "arts": ["music", "art", "theater", "film", "dance"],
+    "athletics": ["varsity", "athletic", "championship", "all-league", "tournament"],
+    "service_leadership": ["service", "volunteer", "leadership", "community"],
+    "school_recognition": ["honor roll", "student of the", "school award"],
+    "other": []
+  }
+}

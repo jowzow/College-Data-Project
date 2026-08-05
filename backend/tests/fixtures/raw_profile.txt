@@ -1,0 +1,29 @@
+Demographics:
+- Gender: Male
+- Location: California
+- School Type: Private
+
+Academics:
+- UW GPA: 3.91
+- Weighted GPA: 4.36
+- SAT: 1530
+- Rank: 12/420
+- Coursework: AP Calculus BC, AP Physics C, AP Computer Science A
+
+Intended Major: Computer Science
+Application Round: RD
+Graduation Year: 2027
+
+Extracurriculars:
+1. Varsity football captain - 4 years, 12 hours/week. Organized offseason training for 35 players.
+2. Scheduling web app - Built and deployed a Python scheduling app used by 80 students.
+3. Volunteer coding tutor - Taught weekly programming lessons for 2 years.
+
+Awards:
+1. USACO Gold national competition
+2. School leadership award
+
+Target Colleges:
+- UC Berkeley
+- UIUC
+- Georgia Tech

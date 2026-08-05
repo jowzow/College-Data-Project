@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "left_profile_id": "profile-left-example",
+  "right_profile_id": "profile-right-example",
+  "sections": [
+    {
+      "name": "academics",
+      "items": [
+        {
+          "diff_item_id": "8e2226e2-cffe-4e4d-a493-51235f86a63f",
+          "label": "Unweighted GPA",
+          "comparison_type": "shared",
+          "left_ref": null,
+          "right_ref": null,
+          "left_summary": "3.91",
+          "right_summary": "3.88",
+          "explanation": "The reported values are within the comparison tolerance of 0.15.",
+          "shared_tags": [],
+          "left_only_tags": [],
+          "right_only_tags": [],
+          "confidence": 0.9
+        },
+        {
+          "diff_item_id": "8b42c5af-8304-4701-954a-16006e49bbf8",
+          "label": "Weighted GPA",
+          "comparison_type": "insufficient_information",
+          "left_ref": null,
+          "right_ref": null,
+          "left_summary": "4.36",
+          "right_summary": null,
+          "explanation": "One profile is missing this metric, so a comparison is not reliable.",
+          "shared_tags": [],
+          "left_only_tags": [],
+          "right_only_tags": [],
+          "confidence": 0.45
+        },
+        {
+          "diff_item_id": "54988c3a-4539-4cbe-b6e7-7b920e6ae6d9",
+          "label": "SAT",
+          "comparison_type": "shared",
+          "left_ref": null,
+          "right_ref": null,
+          "left_summary": "1530",
+          "right_summary": "1510",
+          "explanation": "The reported values are within the comparison tolerance of 50.",
+          "shared_tags": [],
+          "left_only_tags": [],
+          "right_only_tags": [],
+          "confidence": 0.9
+        },
+        {
+          "diff_item_id": "14c529d3-31ad-48fc-9f00-9b825fb8ab25",
+          "label": "Course count",
+          "comparison_type": "shared",
+          "left_ref": null,
+          "right_ref": null,
+          "left_summary": "3",
+          "right_summary": "3",
+          "explanation": "The reported values are within the comparison tolerance of 2.",
+          "shared_tags": [],
+          "left_only_tags": [],
+          "right_only_tags": [],
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "name": "extracurriculars",
+      "items": [
+        {
+          "diff_item_id": "3bc2b21a-fb8d-4d3e-9e76-16d9193988c6",
+          "label": "athletics: Varsity football captain ↔ Varsity soccer captain",
+          "comparison_type": "shared",
+          "left_ref": "left-activity-1",
+          "right_ref": "right-activity-1",
+          "left_summary": "Varsity football captain; category=athletics; leadership=president_or_captain; years=4; evidence=0.66",
+          "right_summary": "Varsity soccer captain; category=athletics; leadership=president_or_captain; years=4; evidence=0.60",
+          "explanation": "These activities occupy a similar category and have comparable documented depth. The activity names do not need to match exactly.",
+          "shared_tags": [
+            "sustained",
+            "team_sport"
+          ],
+          "left_only_tags": [],
+          "right_only_tags": [],
+          "confidence": 0.79
+        },
+        {
+          "diff_item_id": "184fd0bc-358d-4ba6-8266-12a95c54c1d6",
+          "label": "technology_engineering: Scheduling web app ↔ Robotics team lead",
+          "comparison_type": "right_stronger_evidence",
+          "left_ref": "left-activity-2",
+          "right_ref": "right-activity-2",
+          "left_summary": "Scheduling web app; category=technology_engineering; leadership=none; evidence=0.32",
+          "right_summary": "Robotics team lead; category=technology_engineering; leadership=informal_lead; years=3; evidence=0.44",
+          "explanation": "The right activity has stronger documented evidence based on leadership, duration, commitment, and measurable impact—not because its category is inherently better.",
+          "shared_tags": [
+            "software_project"
+          ],
+          "left_only_tags": [],
+          "right_only_tags": [
+            "competition",
+            "sustained",
+            "team_sport"
+          ],
+          "confidence": 0.713
+        },
+        {
+          "diff_item_id": "e0ba8f5e-cba2-405b-af27-94236f520db8",
+          "label": "Different direction: Volunteer coding tutor",
+          "comparison_type": "different_direction",
+          "left_ref": "left-activity-3",
+          "right_ref": null,
+          "left_summary": "Volunteer coding tutor; category=technology_engineering; leadership=none; years=2; evidence=0.26",
+          "right_summary": null,
+          "explanation": "No sufficiently similar activity was found in the other profile. This is a different direction, not automatically a deficiency.",
+          "shared_tags": [],
+          "left_only_tags": [
+            "mentoring",
+            "sustained"
+          ],
+          "right_only_tags": [],
+          "confidence": 0.79
+        },
+        {
+          "diff_item_id": "d504f597-553b-4d6d-b4da-535609337067",
+          "label": "Different direction: Community math tutor",
+          "comparison_type": "different_direction",
+          "left_ref": null,
+          "right_ref": "right-activity-3",
+          "left_summary": null,
+          "right_summary": "Community math tutor; category=community_service; leadership=none; years=2; evidence=0.25",
+          "explanation": "No sufficiently similar activity was found in the other profile. This is a different direction, not automatically a deficiency.",
+          "shared_tags": [],
+          "left_only_tags": [],
+          "right_only_tags": [
+            "mentoring",
+            "sustained"
+          ],
+          "confidence": 0.79
+        }
+      ]
+    },
+    {
+      "name": "awards",
+      "items": [
+        {
+          "diff_item_id": "f3e27077-648a-49db-bf57-4f0bb3894289",
+          "label": "academic_competition: USACO Gold national competition ↔ State robotics competition award",
+          "comparison_type": "left_stronger_evidence",
+          "left_ref": "left-award-1",
+          "right_ref": "right-award-1",
+          "left_summary": "USACO Gold national competition",
+          "right_summary": "State robotics competition award",
+          "explanation": "The left award has a higher documented level or clearer supporting detail.",
+          "shared_tags": [],
+          "left_only_tags": [
+            "level:national"
+          ],
+          "right_only_tags": [
+            "level:state"
+          ],
+          "confidence": 0.72
+        },
+        {
+          "diff_item_id": "3758b738-96cf-4340-9cad-b11d3c2eda2a",
+          "label": "Different direction: School leadership award",
+          "comparison_type": "different_direction",
+          "left_ref": "left-award-2",
+          "right_ref": null,
+          "left_summary": "School leadership award",
+          "right_summary": null,
+          "explanation": "No award with a sufficiently similar category was found in the other profile. This should not be treated as a direct ranking.",
+          "shared_tags": [],
+          "left_only_tags": [
+            "level:school"
+          ],
+          "right_only_tags": [],
+          "confidence": 0.72
+        }
+      ]
+    }
+  ],
+  "overall_summary": "Found 4 broadly shared comparisons, 1 areas with stronger evidence on the left, 1 on the right, and 3 differences that should not be directly ranked.",
+  "warnings": [
+    "This comparison is descriptive and is not an admission probability.",
+    "Race and gender are not used to score activities or determine similarity.",
+    "Self-reported profiles may be incomplete, exaggerated, or unrepresentative."
+  ]
+}

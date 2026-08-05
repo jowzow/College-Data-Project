@@ -1,0 +1,268 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "1.0",
+  "profile": {
+    "schema_version": "1.0",
+    "profile_id": "profile-left-example",
+    "display_name": null,
+    "graduation_year": 2027,
+    "intended_majors": [
+      "Computer Science"
+    ],
+    "target_colleges": [
+      "UC Berkeley",
+      "UIUC",
+      "Georgia Tech"
+    ],
+    "application_round": "regular_decision",
+    "academics": {
+      "gpa_unweighted": 3.91,
+      "gpa_weighted": 4.36,
+      "gpa_scale": 4.0,
+      "class_rank": 12,
+      "class_size": 420,
+      "sat_total": 1530,
+      "act_composite": null,
+      "coursework": [
+        "AP Calculus BC",
+        "AP Physics C",
+        "AP Computer Science A"
+      ],
+      "course_rigor_notes": null
+    },
+    "demographics": {
+      "gender": "Male",
+      "race_ethnicity": [],
+      "country": null,
+      "state_or_region": "California",
+      "citizenship": null,
+      "school_type": "Private",
+      "school_context": null,
+      "hooks": []
+    },
+    "extracurriculars": [
+      {
+        "activity_id": "left-activity-1",
+        "name": "Varsity football captain",
+        "description": "4 years, 12 hours/week. Organized offseason training for 35 players.",
+        "role": "captain",
+        "organization": null,
+        "category_hint": null,
+        "grades": [],
+        "years": 4.0,
+        "hours_per_week": 12.0,
+        "weeks_per_year": null,
+        "leadership_positions": [
+          "captain"
+        ],
+        "measurable_outcomes": [
+          "Varsity football captain - 4 years, 12 hours/week. Organized offseason training for 35 players."
+        ],
+        "source_text": "Varsity football captain - 4 years, 12 hours/week. Organized offseason training for 35 players."
+      },
+      {
+        "activity_id": "left-activity-2",
+        "name": "Scheduling web app",
+        "description": "Built and deployed a Python scheduling app used by 80 students.",
+        "role": null,
+        "organization": null,
+        "category_hint": null,
+        "grades": [],
+        "years": null,
+        "hours_per_week": null,
+        "weeks_per_year": null,
+        "leadership_positions": [],
+        "measurable_outcomes": [
+          "Scheduling web app - Built and deployed a Python scheduling app used by 80 students."
+        ],
+        "source_text": "Scheduling web app - Built and deployed a Python scheduling app used by 80 students."
+      },
+      {
+        "activity_id": "left-activity-3",
+        "name": "Volunteer coding tutor",
+        "description": "Taught weekly programming lessons for 2 years.",
+        "role": null,
+        "organization": null,
+        "category_hint": null,
+        "grades": [],
+        "years": 2.0,
+        "hours_per_week": null,
+        "weeks_per_year": null,
+        "leadership_positions": [],
+        "measurable_outcomes": [
+          "Volunteer coding tutor - Taught weekly programming lessons for 2 years."
+        ],
+        "source_text": "Volunteer coding tutor - Taught weekly programming lessons for 2 years."
+      }
+    ],
+    "awards": [
+      {
+        "award_id": "left-award-1",
+        "name": "USACO Gold national competition",
+        "description": null,
+        "level": "national",
+        "year_or_grade": null,
+        "source_text": "USACO Gold national competition"
+      },
+      {
+        "award_id": "left-award-2",
+        "name": "School leadership award",
+        "description": null,
+        "level": "school",
+        "year_or_grade": null,
+        "source_text": "School leadership award"
+      }
+    ],
+    "additional_context": [
+      "Graduation year: 2027"
+    ],
+    "provenance": {
+      "source": "user_text",
+      "source_reference": "fixture:raw_profile.txt",
+      "original_text": "Demographics:\n- Gender: Male\n- Location: California\n- School Type: Private\n\nAcademics:\n- UW GPA: 3.91\n- Weighted GPA: 4.36\n- SAT: 1530\n- Rank: 12/420\n- Coursework: AP Calculus BC, AP Physics C, AP Computer Science A\n\nIntended Major: Computer Science\nApplication Round: RD\nGraduation Year: 2027\n\nExtracurriculars:\n1. Varsity football captain - 4 years, 12 hours/week. Organized offseason training for 35 players.\n2. Scheduling web app - Built and deployed a Python scheduling app used by 80 students.\n3. Volunteer coding tutor - Taught weekly programming lessons for 2 years.\n\nAwards:\n1. USACO Gold national competition\n2. School leadership award\n\nTarget Colleges:\n- UC Berkeley\n- UIUC\n- Georgia Tech",
+      "confidence": 0.95,
+      "extraction_notes": []
+    }
+  },
+  "extracurriculars": [
+    {
+      "activity": {
+        "activity_id": "left-activity-1",
+        "name": "Varsity football captain",
+        "description": "4 years, 12 hours/week. Organized offseason training for 35 players.",
+        "role": "captain",
+        "organization": null,
+        "category_hint": null,
+        "grades": [],
+        "years": 4.0,
+        "hours_per_week": 12.0,
+        "weeks_per_year": null,
+        "leadership_positions": [
+          "captain"
+        ],
+        "measurable_outcomes": [
+          "Varsity football captain - 4 years, 12 hours/week. Organized offseason training for 35 players."
+        ],
+        "source_text": "Varsity football captain - 4 years, 12 hours/week. Organized offseason training for 35 players."
+      },
+      "category": "athletics",
+      "subtags": [
+        "team_sport",
+        "sustained"
+      ],
+      "signals": {
+        "leadership_level": "president_or_captain",
+        "duration_years": 4.0,
+        "commitment_score": 0.92,
+        "impact_score": 0.55,
+        "evidence_strength": 0.663,
+        "dataset_prevalence": null
+      },
+      "tagging_confidence": 0.79,
+      "tagging_notes": []
+    },
+    {
+      "activity": {
+        "activity_id": "left-activity-2",
+        "name": "Scheduling web app",
+        "description": "Built and deployed a Python scheduling app used by 80 students.",
+        "role": null,
+        "organization": null,
+        "category_hint": null,
+        "grades": [],
+        "years": null,
+        "hours_per_week": null,
+        "weeks_per_year": null,
+        "leadership_positions": [],
+        "measurable_outcomes": [
+          "Scheduling web app - Built and deployed a Python scheduling app used by 80 students."
+        ],
+        "source_text": "Scheduling web app - Built and deployed a Python scheduling app used by 80 students."
+      },
+      "category": "technology_engineering",
+      "subtags": [
+        "software_project"
+      ],
+      "signals": {
+        "leadership_level": "none",
+        "duration_years": null,
+        "commitment_score": 0.0,
+        "impact_score": 0.8,
+        "evidence_strength": 0.318,
+        "dataset_prevalence": null
+      },
+      "tagging_confidence": 0.72,
+      "tagging_notes": []
+    },
+    {
+      "activity": {
+        "activity_id": "left-activity-3",
+        "name": "Volunteer coding tutor",
+        "description": "Taught weekly programming lessons for 2 years.",
+        "role": null,
+        "organization": null,
+        "category_hint": null,
+        "grades": [],
+        "years": 2.0,
+        "hours_per_week": null,
+        "weeks_per_year": null,
+        "leadership_positions": [],
+        "measurable_outcomes": [
+          "Volunteer coding tutor - Taught weekly programming lessons for 2 years."
+        ],
+        "source_text": "Volunteer coding tutor - Taught weekly programming lessons for 2 years."
+      },
+      "category": "technology_engineering",
+      "subtags": [
+        "mentoring",
+        "sustained"
+      ],
+      "signals": {
+        "leadership_level": "none",
+        "duration_years": 2.0,
+        "commitment_score": 0.3,
+        "impact_score": 0.45,
+        "evidence_strength": 0.26,
+        "dataset_prevalence": null
+      },
+      "tagging_confidence": 0.79,
+      "tagging_notes": []
+    }
+  ],
+  "awards": [
+    {
+      "award": {
+        "award_id": "left-award-1",
+        "name": "USACO Gold national competition",
+        "description": null,
+        "level": "national",
+        "year_or_grade": null,
+        "source_text": "USACO Gold national competition"
+      },
+      "category": "academic_competition",
+      "subtags": [
+        "level:national"
+      ],
+      "evidence_strength": 0.85,
+      "tagging_confidence": 0.79,
+      "tagging_notes": []
+    },
+    {
+      "award": {
+        "award_id": "left-award-2",
+        "name": "School leadership award",
+        "description": null,
+        "level": "school",
+        "year_or_grade": null,
+        "source_text": "School leadership award"
+      },
+      "category": "service_leadership",
+      "subtags": [
+        "level:school"
+      ],
+      "evidence_strength": 0.45,
+      "tagging_confidence": 0.72,
+      "tagging_notes": []
+    }
+  ]
+}
